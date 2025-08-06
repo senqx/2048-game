@@ -1,0 +1,34 @@
+# === C++ build artifacts ===
+build/
+bin/
+*.o
+*.obj
+*.gch
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependency files
+*.d
+
+# === Python testing artifacts ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Editor / IDE files ===
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.clangd/
+compile_commands.json
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
